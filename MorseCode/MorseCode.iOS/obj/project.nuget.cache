@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tf9ZPcJv6Rr9vtIjQyE8fNHzy2uXTS68slQ0RIUovGiHRIBATjPT5HJ3ZucbkRYwqRtfJu3IuYbByy59bqg0mg==",
+  "success": true,
+  "projectFilePath": "D:\\WCTC\\MobileApplications\\MorseCode\\MorseCode\\MorseCode\\MorseCode.iOS\\MorseCode.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nickg\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
