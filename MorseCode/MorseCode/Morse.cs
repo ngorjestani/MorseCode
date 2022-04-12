@@ -16,10 +16,6 @@
             'W', 'X', 'Y', 'Z', ' '
         };
 
-        public Morse()
-        {
-        }
-
         public static char MorseCoder(string code)
         {
             char result = '?';

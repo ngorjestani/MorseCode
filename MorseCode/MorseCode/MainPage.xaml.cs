@@ -22,14 +22,16 @@ namespace MorseCode
 
         public char GetLetterForMorseCode() => Morse.MorseCoder(_morse.ToString());
 
-        public void OnDotButtonClicked() => AddToMorse('.');
+        public void OnDotButtonClicked(object sender, System.EventArgs e) => AddToMorse('.');
 
-        public void OnDashButtonClicked() => AddToMorse('-');
+        public void OnDashButtonClicked(object sender, System.EventArgs e) => AddToMorse('-');
 
-        public void OnSpaceButtonClicked()
+        public void OnSpaceButtonClicked(object sender, System.EventArgs e)
         {
             if (_morse.Length == 0) _displayString.Append(' ');
             else _displayString.Append(GetLetterForMorseCode());
+
+            MorseDisplay.Text = _displayString.ToString();
         }
     }
 }
